@@ -27,6 +27,7 @@ cp rippled.spec ~/rpmbuild/SPECS/
 Then run the `rpmbuild` command to build rippled from the RPM spec file
 
 ```
-cd ~/rpmbuild/SPECS/ && rpmbuild rippled.spec
+cd ~/rpmbuild/SPECS/
+rpmbuild -ba rippled.spec
 ```
 
